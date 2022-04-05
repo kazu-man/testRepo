@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infomations",
+  "info": {
+    "singularName": "infomation",
+    "pluralName": "infomations",
+    "displayName": "infomation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "published": {
+      "type": "date"
+    }
+  }
+}
